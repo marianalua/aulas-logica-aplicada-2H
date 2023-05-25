@@ -10,8 +10,20 @@ public class Main {
         // Definir formato do objeto
         qualquel.nome = "Rita";
         qualquel.sobrenome = "Lee";
+        // comportamento
         qualquel.falar();
         System.out.println(qualquel.falar("oi"));
+        // Criar novos objetos
+        // Declamar objeto
+        Pessoa rainha;
+        // Instanciar objetos
+        rainha = new Pessoa();
+        // Definir forma do objeto
+        rainha.nome = "Tina";
+        rainha.sobrenome = "Tunner";
+        // Definição do comportamento
+        rainha.falar();
+        rainha.comer();
 
     }
 }
